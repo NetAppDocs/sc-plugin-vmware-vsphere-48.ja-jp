@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_add_storage.html 
+keywords:  
+summary:  
+---
+= ストレージを追加します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ストレージを追加するには、このセクションの手順に従います。
+
+. SCVプラグインの左側の[Navigator（ナビゲーター）]ペインで、[* Storage Systems]をクリックし、をクリックします image:scpivs44_image6.png["エラー：グラフィックイメージがありません"] * 追加 * 。
+. Add Storage System （ストレージシステムの追加）ダイアログボックスで、 SVM またはクラスタの基本情報を入力し、 * Add * （追加）をクリックします。
+
