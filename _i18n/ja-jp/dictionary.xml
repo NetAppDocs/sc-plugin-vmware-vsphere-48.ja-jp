@@ -150,7 +150,6 @@
   <block id="2bd86c060682f23f66bfc890d5d5b84d" category="paragraph">SnapCenter VMware 仮想アプライアンスサービスが停止され、再起動されます。</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="section-title">証明書を作成してインポートします</block>
   <block id="67ad40a58006dca534f07accbe2d7049" category="inline-link">技術情報アーティクル：「 How to create or import an SSL certificate to VMware plug-in for SnapCenter</block>
-  <block id="d7d0b066eaf1756a7561d33071d5f0dd" category="paragraph">SnapCenter VMware プラグインは、 SSL 暗号化を使用してクライアントブラウザとのセキュアな通信を確立します。これにより、ネットワーク全体で暗号化されたデータを使用できるようになりますが、新しい自己署名証明書を作成するか、独自の認証局（ CA ）インフラストラクチャまたはサードパーティの CA を使用して、環境に合わせて証明書を固有のものにすることができます。を参照してください<block ref="54c041cf960c8378efcb7c0d4625ab10" category="inline-link-rx"></block>。</block>
   <block id="eab598fe49238a4c46b7d04bd9d31b23" category="section-title">vCenter から SnapCenter Plug-in for VMware vSphere の登録を解除します</block>
   <block id="4edf4ea4b4b6cf5053ce09b1170ef383" category="paragraph">リンクモードの vCenter で SnapCenter VMware プラグインサービスを停止すると、リンクされている他の vCenter で SnapCenter VMware プラグインサービスが実行されていても、リンクされているすべての vCenter でリソースグループを使用できなくなります。</block>
   <block id="8d879fce0e589617e4f1386e3f6a9c76" category="paragraph">SnapCenter VMware プラグイン拡張機能の手動登録を解除する必要があります。</block>
@@ -1449,7 +1448,6 @@ Create SnapCenter Plug-in for VMware vSphere credentials * で、 SnapCenter Plu
   <block id="5990783a93858d845e12e401808f16f3" category="list-text">セカンダリストレージ（mirror-vault）のSnapshotコピーの数が上限に達すると、バックアップ処理でバックアップを登録して保持を適用する処理が次のエラーで失敗します。<block ref="5a9cca26582442620c7aafc02ff929a9" prefix=" " category="inline-code"></block></block>
   <block id="7cb7ec638ee3f628b5dd7b29b735054f" category="paragraph">この問題を修正するには、 Snapshot コピーの上限に達しないように、セカンダリストレージの SnapMirror 保持ポリシーを設定します。</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">ロールベースアクセス制御の使用に関する SnapCenter 情報</block>
-  <block id="339d9a9c6148bb34e3d15a00f296465c" category="paragraph">管理者によるユーザへのリソースの割り当て方法については、を参照してください<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>。</block>
   <block id="ddad3ed39c11da21249f852ea88d160e" category="list-text">VMと整合性のあるバックアップを作成する場合は、VMwareツールをインストールして実行する必要があります。VMを休止するにはVMwareツールが必要です。VM と整合性のあるバックアップは VVol VM ではサポートされません。</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">ウィザードの各ページのフィールドのほとんどはわかりやすいもので、説明を必要としません。以下の手順では、説明が必要な一部のフィールドを取り上げます。</block>
   <block id="bdbfb471a9264cde1fc7a4e0281096ab" category="list-text">SCVプラグインの左側の[Navigator（ナビゲーター）]ペインで、[* Policies（ポリシー）]をクリックします。</block>
@@ -1790,7 +1788,6 @@ VirtualMachine.State.RevertToSnapshot</block>
   <block id="8c5a46f2b9b85dd307d50498933fef6a" category="paragraph">既存の SnapCenter ユーザは、新しい SnapCenter ユーザとは異なる導入ワークフローを使用する必要があります。</block>
   <block id="89321ccbd89a9e660bc76b0f2974632d" category="summary">SnapCenter VMware プラグインは、 SSL 暗号化を使用してクライアントブラウザとのセキュアな通信を確立します。これにより、ネットワーク全体で暗号化されたデータを使用できるようになりますが、新しい自己署名証明書を作成するか、独自の認証局（ CA ）インフラストラクチャまたはサードパーティの CA を使用して、証明書が環境に固有のものであることが保証されます。</block>
   <block id="9668b00eae1748d51afb7f725a15301a" category="inline-link">技術情報アーティクル：「 How to create or import an SSL certificate to SnapCenter Plug-in for VMware vSphere</block>
-  <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">を参照してください<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>。</block>
   <block id="6650233af9749cab906d5d830dc495d5" category="summary">SnapCenter Plug-in for VMware vSphere REST API を使用して Storage VM の追加や変更の処理を実行するには、規定された順序で REST API 呼び出しを実行する必要があります。</block>
   <block id="c1505c3e5b646d94b49a1794e45a6a44" category="doc">Storage VM を追加および変更する REST API ワークフロー</block>
   <block id="271bbb1f9c6e3b7ac227efce79ba68eb" category="paragraph">Storage VM 処理を追加するワークフローは次のとおりです。</block>
@@ -2401,4 +2398,7 @@ syslogに入力します</block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="760b8cb1a553fbe09568e1e4a36f3d07" category="sidebar">SnapCenter Plug-in for VMware vSphere 4.8のドキュメント</block>
+  <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph"><block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">管理者がユーザーにリソースを割り当てる方法については、<block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="968dfd07bd428baaae460104cfba99d5" category="paragraph">SnapCenter VMwareプラグインでは、クライアント ブラウザとのセキュアな通信にSSL暗号化を採用しています。これによりネットワーク全体でデータを暗号化できますが、新しい自己署名証明書を作成するか、独自の認証局（CA）インフラまたはサードパーティのCAを利用して、証明書が環境に固有のものであることを保証しなければなりません。<block ref="53c476de910733596bef6375b66e4a2f" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
